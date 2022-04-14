@@ -27,7 +27,7 @@ public class FlashEffect : MonoBehaviour
     {
         _image.enabled = true;
 
-        float delay = 0.05f;
+        float delay = 0.03f;
         WaitForSeconds waitForSeconds = new WaitForSeconds(delay);
 
         foreach (Sprite image in _sprites)
